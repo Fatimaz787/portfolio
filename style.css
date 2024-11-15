@@ -1,14 +1,16 @@
 
-  /* Body Styling */
+
   body {
     font-family: Arial, sans-serif;
-    color: #333;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f4f9fc; /* Soft light blue background for the whole page */
-  }
+    background-color: #f4f4f4;
+}
+
   
   
   .header {
@@ -16,7 +18,7 @@
     background-color: #A9D1E4; 
     color: white;
     width: 100%;
-    padding: 2em 0;
+    padding: 2em ;
     border-bottom: 5px solid #F2D1D1;
   }
   
@@ -73,13 +75,13 @@
   }
   
   .right-box img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 1em;
-  }
+   max-width: 96%;
+   margin: 2em;
+   border-radius: 8px;
+  } 
   
   
-  .profile-photo {
+  .profile {
     max-width: 100%;
     border-radius: 8px;
   }
@@ -88,39 +90,25 @@
     border-radius:5px;
   }
   
-  /* List Styling */
-  ul {
-    list-style-type: none;
-  }
   
-  ul li {
+  
+  
+  ol li {
     padding: 5px 0;
     font-size: 1.2em;
     color: #555;
   }
-  
-  /* Footer Styling */
+  .footer{
+    background-color: #F2D1D1; 
+    height: 40vh;
+    width: 100%;
+  }
   footer {
     text-align: center;
-    padding: 1.5em 0;
-    background-color: #F2D1D1; /* Baby Pink footer background */
-    width: 100%;
+    padding: 1.5em;
     margin-top: 2em;
     color: black;
   }
+
   
-  footer h2 {
-    font-size: 2em;
-  }
-  
-  footer a {
-    color: #A9D1E4; /* Light Blue links */
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-  }
-  
-  footer a:hover {
-    color: #F2D1D1; /* Baby Pink hover effect for links */
-  }
   
